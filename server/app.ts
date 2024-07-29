@@ -20,7 +20,7 @@ app.use(cookieParser());
 
 // cors => cross origin resource sharing 
 app.use(cors({
-  origin: ["https://medium-admin-dashboard.vercel.app", "*"],
+  origin: ["https://medium-admin-dashboard.vercel.app", "*", "http://localhost:5173"],
   credentials: true
 }));
 
